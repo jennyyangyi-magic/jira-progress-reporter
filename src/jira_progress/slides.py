@@ -23,7 +23,7 @@ from pptx.util import Emu, Inches, Pt
 
 logger = logging.getLogger(__name__)
 
-BRAND_PATH = Path(__file__).resolve().parent.parent / "config" / "brand.json"
+BRAND_PATH = Path(__file__).resolve().parent / "config" / "brand.json"
 PROGRESS_OUTPUT_DIR = Path("progress")
 
 SLIDE_W = Inches(10)

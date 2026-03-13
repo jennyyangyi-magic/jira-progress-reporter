@@ -41,6 +41,8 @@ ENV/
 # Output
 progress/
 *.pptx
+!examples/*.pptx
+!examples/*.json
 
 # Testing
 .pytest_cache/
